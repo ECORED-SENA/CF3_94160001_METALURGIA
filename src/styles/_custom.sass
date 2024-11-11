@@ -2,14 +2,24 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 45%
+    right: 60%
+    width: 98px
+    z-index: 1
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float2 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 25%
+    right: 10%
+    width: 98px
+    z-index: 1
+  &-3
+    animation: latido 2s ease-in-out infinite alternate
+    position: absolute
+    top: 68%
+    right: 20%
+    width: 98px
+    z-index: 1
 
 @keyframes float1
   0%
@@ -18,3 +28,139 @@
   100%
     transform: translateY(0px)
 
+@keyframes float2
+  0%
+    transform: translateY(0px)
+
+  100%
+    transform: translateY(20px)
+
+@keyframes latido
+  0%, 100%
+    transform: scale(1)
+  50%
+    transform: scale(1.1)
+
+.banner-principal__img
+  position: relative
+  display: inline-block
+  
+  &::before
+    content: ''
+    position: absolute
+    inset: -20px
+    background: #FF9503
+    border-radius: 50%
+    filter: blur(30px)
+    opacity: 0
+    animation: bannerGlow 3s ease-in-out infinite
+    pointer-events: none
+    z-index: 0
+  
+  img
+    position: relative
+    z-index: 1
+    display: block
+    border-radius: 40% 60% 70% 30% / 40% 50% 60% 50%
+
+@keyframes bannerGlow
+  0%
+    opacity: 0.2
+    transform: scale(0.75)
+  
+  50%
+    opacity: 0.6
+    transform: scale(0.8)
+  
+  100%
+    opacity: 0.2
+    transform: scale(0.75)
+
+.banner-principal__row .banner-principal__img
+  width: 460px
+  @media screen and ( max-width: $bp-max-lg )
+    width: 400px
+
+.banner-principal .tarjeta
+  @media screen and ( max-width: $bp-min-md )
+    background-position: -80px bottom
+
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/img1.png") !important
+
+.banner-interno__titulo__icono i
+  color: #fff !important
+
+.brounded
+  border-radius: 15px
+
+.brounded-only-xs
+  @media screen and (max-width: $bp-max-sm)
+    border-radius: 15px !important
+
+.shadow
+  &-soft
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
+// Full Width Background
+.bg-full-width
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
+.bg-color
+  &-1
+    background-color: #BFE7F2 !important
+  &-2
+    background-color: #FEF5E9 !important
+  &-3
+    background-color: #62C5DF !important
+  &-4
+    background-color: #DFF3F8 !important
+  &-5
+    background-color: #E5E8ED !important
+  &-6
+    background-color: #FEE3D7 !important
+  &-7
+    background-color: #FBD9AB !important
+  &-8
+    background-color: #FDECD4 !important
+  &-secundario
+    background-color: $color-secundario !important
+
+.tarjeta--boton.bg-color-5:hover
+  background-color: #FBD9AB !important
+
+.bg-fondo
+  &-1
+    background-image: url("../assets/curso/bg/bg1.png") !important
+    background-position: center
+  &-2
+    background-image: url("../assets/curso/bg/bg2.png") !important
+    background-position: bottom
+
+.titulo-tres
+  position: relative
+  background: #FE783D
+  /* border-radius: 8px */
+  display: inline-block
+  padding: 0.5rem 1.4rem 0.5rem 74px
+
+  h3, h4
+    margin: 0
+    line-height: 110% !important
+    @media screen and (max-width: $bp-max-sm)
+      font-size: 0.99rem
+
+  &::after
+    content: ''
+    position: absolute
+    bottom: -12px
+    left: 0
+    width: 100%
+    height: 56px
+    transform: translateX(8px)
+    background: url('../assets/curso/bullets/icon1.svg') transparent no-repeat bottom left

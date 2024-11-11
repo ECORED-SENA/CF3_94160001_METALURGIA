@@ -1,17 +1,22 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'El proceso de fabricación del acero',
+    descripcionCurso:
+      'El componente formativo aborda el proceso de fabricación del acero, desde la extracción de materias primas como el mineral de hierro, el coque y la caliza, hasta la obtención de productos finales mediante técnicas como el alto horno, el horno convertidor y el horno eléctrico. También se explican los subproductos, el reciclaje de chatarra, y las normativas de calidad que regulan la producción del acero.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal3.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
       },
     ],
   },
@@ -31,28 +36,30 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Siderurgia',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Materia prima del alto horno',
             hash: 't_1_1',
           },
+          {
+            numero: '1.2',
+            titulo: 'Subproductos del alto horno',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Horno convertidor',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Horno eléctrico',
+            hash: 't_1_4',
+          },
         ],
-      },
-
-      {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -102,31 +109,120 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: 'Siderurgia',
+      referencia:
+        'INITUBE. (2023). Qué es la siderurgia y cómo se ha transformado a lo largo del tiempo. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=NO6BXna7DIA',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: 'Materia prima del alto horno',
+      referencia:
+        'Documentales TV. (2014). Funcionamiento Alto Horno. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=WerjnkrTqI0',
+    },
+    {
+      tema: 'Subproductos del alto horno',
+      referencia:
+        'DW Español. (2014). El mayor alto horno de Europa - un coloso a punto para el futuro | Hecho en Alemania. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=vD9--otWQzQ',
+    },
+    {
+      tema: 'Horno convertidor',
+      referencia:
+        'Proyecto materiales. (2016). Horno convertidor. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=IMnPEVFlc4Q',
+    },
+    {
+      tema: 'Horno eléctrico',
+      referencia:
+        'Tr Precision Machining Asturias. (2023). Horno Fundición Metales Digital 1150 °C - Un complemento ideal para tu taller. [Archivo de video] YouTube.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=v1xRBdJNY8U',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Arrabio',
+      significado:
+        'Producto líquido de la primera fusión del hierro en el alto horno.',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Caliza',
+      significado:
+        'Mineral sólido de carbonato de calcio que se usa como fundente en el alto horno para eliminar impurezas del hierro.',
+    },
+    {
+      termino: 'Colada continua',
+      significado:
+        'Proceso que da forma a un chorro de acero líquido al entrar en una cavidad formada en un molde para solidificar el líquido de forma continua.',
+    },
+    {
+      termino: 'Coque',
+      significado:
+        'Combustible sólido obtenido por la carbonización a alta temperatura del carbón mineral, usado en el alto horno.',
+    },
+    {
+      termino: 'Escoria',
+      significado:
+        'Compuesto de óxidos que flotan sobre el crisol del alto horno y son eliminados durante el proceso de fabricación del acero.',
+    },
+    {
+      termino: 'Pellets',
+      significado:
+        'Bolitas de concentrado de hierro o mineral de hierro que sirven como fuente de hierro en el alto horno.',
+    },
+    {
+      termino: 'Reactor',
+      significado:
+        'Equipo donde ocurren reacciones químicas exotérmicas o endotérmicas bajo condiciones de presión y temperatura controladas.',
+    },
+    {
+      termino: 'Reciclaje',
+      significado:
+        'Proceso mediante el cual se refunde la chatarra de acero en hornos para generar nuevos productos. el acero es infinitamente reciclable.',
+    },
+    {
+      termino: 'Siderurgia',
+      significado:
+        'Técnica de tratamiento del mineral de hierro para obtener diferentes tipos de hierro y sus aleaciones, como el acero.',
+    },
+    {
+      termino: '<em>Tundish</em>',
+      significado:
+        'Dispositivo de material refractario que actúa como distribuidor del acero líquido en el proceso de colada continua.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia: 'Aceros Arequipa. (2016, abril 15). Procesos de laminación.',
+      link: 'http://www.acerosarequipa.com/proceso-de-laminacion.html',
+    },
+    {
+      referencia:
+        'Askeland, D. (2004). Ciencia e ingeniería de los materiales (4ª ed.). Thomson.',
+      link: '',
+    },
+    {
+      referencia: 'Asometal. (2009, abril 12). Siderurgia.',
+      link: 'http://www.asometal.org/siderurgia/',
+    },
+    {
+      referencia:
+        'Neely, J. E. (1994). Practical metallurgy and materials of industry (4th ed.). Prentice-Hall, Inc.',
+      link: '',
+    },
+    {
+      referencia:
+        'Pellini, C. (2016, abril 13). Funcionamiento de un alto horno: Proceso químico interno del arrabio.',
+      link: 'http://historiaybiografias.com/alto_horno/',
+    },
+    {
+      referencia:
+        'Kalpakjian, S., Schmid, S. R., Coaut, G., & Sánchez García, G. (2002). Manufactura, ingeniería y tecnología (4ª ed.). Pearson Educación.',
       link: '',
     },
   ],
@@ -150,8 +246,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Hivo Alfonso Patarroyo Pulido ',
+          cargo: 'Experto temático',
+          centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -160,18 +261,13 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Carlos Julian Ramirez Benitez',
           cargo: 'Diseñador de contenidos',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Edgar Mauricio Cortés',
           cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Nombre',
-          cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
@@ -181,11 +277,6 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernán Tejada Llano',
           cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
