@@ -208,7 +208,6 @@ export default {
     },
     {
       referencia: 'Asometal. (2009, abril 12). Siderurgia.',
-      link: 'http://www.asometal.org/siderurgia/',
     },
     {
       referencia:

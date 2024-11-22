@@ -235,7 +235,7 @@
           .p-4.pe-lg-5.py-lg-0
             p.mb-0 Los dos elementos de la composición del acero que resultan más difíciles de controlar mediante #[strong espectrometría de emisión], pero que son fundamentales para definir su calidad, son el #[strong carbono y el azufre]. Por esta razón, se realizan análisis adicionales con un aparato de combustión LECO. 
 
-    p.mb-5(data-aos="fade-left") El último paso consiste en transformar el acero líquido en semiproductos. Para ello, el acero se vierte en un tundish, que alimenta la colada continua, donde se lleva a cabo la solidificación del acero y la obtención de semiproductos, como las palanquillas. 
+    p.mb-5(data-aos="fade-left") El último paso consiste en transformar el acero líquido en semiproductos. Para ello, el acero se vierte en un #[em tundish,] que alimenta la colada continua, donde se lleva a cabo la solidificación del acero y la obtención de semiproductos, como las palanquillas. 
 
     .titulo-tres.mb-4(data-aos="flip-up")
       h4 Laminación 
@@ -247,7 +247,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 La etapa final del proceso de producción del acero es la laminación en caliente, en la cual las palanquillas se transforman en los diferentes productos de acero largo que demanda el mercado nacional e internacional. 
     
-    p.mb-5(data-aos="fade-left") La laminación cuenta con dos líneas de fabricación: una para la producción de barras de construcción, perfiles, ángulos, tees, barras cuadradas, redondas, lisas, y barras helicoidales; y otra para la fabricación de alambrones destinados a trefilería, electrodos y construcción. 
+    p.mb-5(data-aos="fade-left") La laminación cuenta con dos líneas de fabricación: una para la producción de barras de construcción, perfiles, ángulos, #[em tees,] barras cuadradas, redondas, lisas, y barras helicoidales; y otra para la fabricación de alambrones destinados a trefilería, electrodos y construcción. 
 
     .bg-color-8.p-5
       .row.justify-content-center.align-items-center
