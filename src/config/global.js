@@ -183,7 +183,7 @@ export default {
     {
       termino: 'Reciclaje',
       significado:
-        'Proceso mediante el cual se refunde la chatarra de acero en hornos para generar nuevos productos. el acero es infinitamente reciclable.',
+        'Proceso mediante el cual se refunde la chatarra de acero en hornos para generar nuevos productos. El acero es infinitamente reciclable.',
     },
     {
       termino: 'Siderurgia',
@@ -250,7 +250,7 @@ export default {
           centro: 'Centro de Materiales y Ensayos - Regional Distrito Capital',
         },
         {
-          nombre: 'Paola Alexandra Moya',
+          nombre: 'Paola Alexandra Moya Peralta',
           cargo: 'Evaluadora instruccional',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -265,7 +265,7 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Edgar Mauricio Cortés',
+          nombre: 'Edgar Mauricio Cortés García',
           cargo: 'Desarrollador <i>full stack</i>',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
@@ -276,17 +276,17 @@ export default {
       autores: [
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano Gómez',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],

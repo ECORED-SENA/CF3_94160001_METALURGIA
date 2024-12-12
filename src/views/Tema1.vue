@@ -78,7 +78,7 @@
           .col
             .bg-color-secundario.p-3.py-2.d-inline-block
               h5.mb-0.text-color-black Coque 
-        p.text-white El coque es el producto del horno coquizador, que genera un sólido por la carbonización a alta temperatura del carbón mineral, generalmente con la adición de otros minerales en ausencia de oxígeno. Este proceso produce un combustible llamado coque metalúrgico, adecuado para su uso en el alto horno
+        p.text-white El coque es el producto del horno coquizador, que genera un sólido por la carbonización a alta temperatura del carbón mineral, generalmente con la adición de otros minerales en ausencia de oxígeno. Este proceso produce un combustible llamado coque metalúrgico, adecuado para su uso en el alto horno.
 
       .col-md.tarjeta.bg-color-5.p-5.brounded-only-xs 
         figure
